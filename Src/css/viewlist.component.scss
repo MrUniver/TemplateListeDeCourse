@@ -1,0 +1,27 @@
+#view__list {
+    margin: 100px auto 20px auto;
+    width: 60%;
+    .view__title {
+        padding-left: 20px;
+        text-transform: uppercase;
+    }
+    .view__products {
+        text-align: justify;
+        li.view__product {
+            width: 250px;
+            list-style-type: circle;
+            text-transform: capitalize;
+            padding: 5px;
+            cursor: pointer;
+            span {
+                color: red;
+                float: right;
+                font-size: 16px;
+            }
+        }
+        .done {
+            text-decoration: line-through;
+            color: grey;
+        }
+    }
+}

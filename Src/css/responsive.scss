@@ -1,0 +1,74 @@
+/**
+    Pour les médias avec largeur maximale de 1080px
+*/
+
+@media screen and (max-width:1080px) {
+    #list__ .list__products {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        width: 100%;
+        z-index: 5;
+        display: grid;
+        grid-template-columns: repeat(4, calc(98%/4));
+        gap: 5px;
+    }
+}
+
+
+/**
+    Pour les médias avec une largeur maximale de 600px
+*/
+
+@media screen and (max-width:800px) {
+    .no-display {
+        display: none;
+    }
+    #shopping__lists {
+        width: 100%;
+        text-align: center;
+        td:nth-child(2)>a {
+            margin-left: 10px;
+        }
+    }
+    /** Page d'ajout de liste */
+    #list__add {
+        .list__form {
+            margin: 0;
+            input[type="text"],
+            input[type="checkbox"] {
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+        .list__products {
+            display: block;
+            >.list__category {
+                display: block;
+                width: 100%;
+                label {
+                    text-align: center;
+                    font-size: 24px;
+                }
+            }
+        }
+        .list__actions {
+            button {
+                margin-top: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+    /** Page de vue des listes */
+    #view__list {
+        width: 100%;
+        margin: 0;
+        h2.view__title {
+            margin-left: 0;
+            text-align: left;
+            padding: 0;
+            color: blue;
+        }
+    }
+}
