@@ -6,6 +6,9 @@ Template d'application qui permet de gérer des listes de courses :
   - Le téléchargement d'une liste de courses en format pdf
 
 
-Pour installer les paquets de package.json taper : 
+Pour installer les paquets de package.json : 
 
   -  **npm i**
+  
+Pour lancer le projet le serveur de developpement :
+  - **npm run dev** ou **yarn run dev**
