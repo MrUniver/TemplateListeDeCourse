@@ -8,4 +8,4 @@ Template d'application qui permet de gérer des listes de courses :
 
 Pour installer les paquets de package.json taper : 
 
-  - ** npm i **
+  -  **npm i**
