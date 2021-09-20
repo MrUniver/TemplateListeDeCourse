@@ -3,4 +3,4 @@ Template d'application qui permet de gérer des listes de courses :
   - La création d'une nouvelle liste de courses
   - L'édition d'une liste de courses
   - La suppression d'une liste de courses
-  - Le téléchargement d'une liste de courses
+  - Le téléchargement d'une liste de courses en format pdf
