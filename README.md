@@ -4,3 +4,8 @@ Template d'application qui permet de gérer des listes de courses :
   - L'édition d'une liste de courses
   - La suppression d'une liste de courses
   - Le téléchargement d'une liste de courses en format pdf
+
+
+Pour installer les paquets de package.json taper : 
+
+  - ** npm i **
