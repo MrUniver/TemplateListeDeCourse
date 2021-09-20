@@ -30,7 +30,7 @@
         "pdfkit": "^0.12.1"
     },
     "scripts": {
-        "start:dev": "nodemon server.js"
+        "dev": "nodemon server.js"
     },
     "bugs": {
         "url": "https://github.com/MrUniver/TemplateListeDeCourse/issues"
